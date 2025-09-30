@@ -9,4 +9,5 @@ app.get('/', (req, res)=>{
 
 app.listen(port, ()=>{
     console.log('open port 80')
+    console.log(port)
 })
